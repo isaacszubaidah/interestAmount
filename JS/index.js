@@ -17,5 +17,5 @@ function calculateInterest() {
   var interest = (principal * rate * time) / 100;
 
   // result: 
-  document.getElementById('result').innerHTML = 'Interest Amount: ' + interest.toFixed(2);
+  document.getElementById('result').innerHTML = 'Interest Amount: ' + interest.toFixed(2) + '%';
 }

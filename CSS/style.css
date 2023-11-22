@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #101010;
+}
+
+#interestCalculatorForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background: white;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+
+.principal input {
+    width: 300px;
+    height: 30px;
+
+}
+
+.rate input {
+    width: 300px;
+    height: 30px;
+
+}
+
+.time input {
+    width: 300px;
+    height: 30px;
+
+}
+
+.principal {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.rate {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.time {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+#calculateInterest {
+    width: 308px;
+    height: 40px;
+    margin-top: 20px;
+    background: green;
+    color: white;
+    font-weight: 800;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    color: green;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+}
