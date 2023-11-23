@@ -3,9 +3,9 @@ document.getElementById('calculateInterest').addEventListener('click', function 
 });
 
 function calculateInterest() {
-  var principal = parseFloat(document.getElementById('principal').value);
-  var rate = parseFloat(document.getElementById('rate').value);
-  var time = parseFloat(document.getElementById('time').value);
+  let principal = parseFloat(document.getElementById('principal').value);
+  let rate = parseFloat(document.getElementById('rate').value);
+  let time = parseFloat(document.getElementById('time').value);
 
   // Check if the inputs are valid numbers
   if (isNaN(principal) || isNaN(rate) || isNaN(time)) {
@@ -14,7 +14,7 @@ function calculateInterest() {
   }
 
   // Formula for interest:
-  var interest = (principal * rate * time) / 100;
+  let interest = (principal * rate * time) / 100;
 
   // result: 
   document.getElementById('result').innerHTML = 'Interest Amount: ' + interest.toFixed(2) + '%';
